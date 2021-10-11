@@ -1,0 +1,731 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+}
+.nav-wrap{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(56,56,56,0.9) ;
+
+/*  box-shadow: 0 0 7px rgb(0 0 0 / 30%);
+*/
+}
+
+
+
+
+label.logoname{
+    color: white;
+    font-size: 26px;
+    font-weight: ; 
+    padding: 4px 10px;
+    font-family: 'EB Garamond', serif;  
+    letter-spacing: 2px;
+    font-weight: bold; 
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 0px 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+    transition: .5s ease all;
+
+    
+}
+.logoname:hover{
+
+    background-color: rgba(32,178,170, 0.2);
+    border:  2px solid gray;
+   
+
+}
+
+
+
+.menu{
+    float: right;
+    list-style-type: none;
+    background-color:;
+    margin-right: 70px;
+
+}
+.menu li {
+    display: inline-block;
+    padding: 26px 15px ;
+
+}
+.menu li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: px;
+    border: 2px solid lightseagreen;
+    border-radius: 15px;
+    padding: 3px 10px;
+    background-color: ;
+    font-family: 'EB Garamond', serif;  
+}
+.menu li a:hover{
+    color: #fff ;
+    transition: .5s ease all;
+    background-color:  rgba(32,178,170, 0.2);      /*rgba(184, 72, 90, 0.5)*/ ;
+}
+/*.nav-wra ul {
+  /* custom list styles */
+}
+
+./*nav-wrap nav ul li a.active {
+    background-color: #222;
+    color: white;
+}*/*/
+.menu li a.scroll.active{
+    cursor: pointer;
+ }
+.togglebtn{
+    font-size: 30px;
+    color: white;
+    line-height:62px ;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+ }
+ /*.crossbtn{
+    display: none;
+ }*/
+ 
+
+.backimg{
+    width: 100%;
+    height: 100vh;
+    z-index: -1000;
+    position: fixed;
+}
+
+ section{
+    background-color:rgba(35, 40, 46, 0.8);          /* #23282e*/
+    /*background-image: url("../assets/img/secimg2.jpg");*/
+    z-index: -1000;
+    height: auto;
+
+ }
+.container1{
+    width: 100%;
+    height: 650px;
+    position: relative;
+
+}
+.box1{
+    width: 800px;
+    height: 500px;
+    background-color : yellsw ;
+    float: left;
+    
+}
+.image1{
+    width: 350px;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: 100px ;
+    border-radius: 20px;
+    transition: 1s ease all .5s ;
+
+}
+
+.dot{
+    width: 500px;
+    height: 500px;
+    background-color: #bbb;
+    border-radius: 50%;
+    z-index: ;
+}
+
+.image1:hover{
+    
+    /*transform: scale(1.1);*/
+    transform: rotate(360deg);
+}
+
+.text1{
+    font-family: 'Rampart One', cursive;   
+    font-size: 50px;
+    margin-top: 150px;
+    margin-left: 150px;
+    color: white;
+    letter-spacing: 1px;
+    transition: 1s ease-in-out all .5s;
+
+
+}
+
+.text1 .hi:hover{
+    cursor: pointer;
+    /*transform: rotate(360deg);*/
+    transform: scale(1.1);
+    background-color: yellow;
+
+}
+.stext2{
+    color: lightseagreen;
+
+
+}
+.stext1{
+    color: #b8485a;
+
+}
+
+.text2{
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   */
+    font-size: 24px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 500;
+    transition: 1s ease all;
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Stick No Bills', sans-serif*/
+     
+
+}
+
+.text2:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+.container2{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(50, 49, 49, 0.7);
+    
+}
+.box2{
+    width: 700px;
+    height: 500px;
+    background-color: pnk;
+    margin-top: 70  px;
+    margin-left: 600px ;
+
+}
+
+.tester {
+    position: relative;
+}
+
+.tester img{
+    position: absolute;
+}
+
+.tester:hover img:nth-child(3) {
+  transform: translate(30px, -30px);
+  opacity: 1;
+}
+.tester:hover img:nth-child(2) {
+  transform: translate(20px, -20px);
+  opacity: 1;
+}
+.tester:hover img:nth-child(1) {
+  transform: translate(10px, -10px);
+  opacity: 1;
+}
+.image3{
+    margin-top: 140px;
+    margin-left: -500px ;
+    border-radius: 20px;
+    transition: .5s ease all;
+}
+.image3:hover{
+    transform: scale(1.1);
+}
+.texta1{
+    width: 400px;
+    font-size: 40px;
+    margin-top: -400px;
+    margin-left: 100px;
+    font-family: 'Rampart One', cursive;   
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    /*font-weight: bold;*/
+    color: white;
+    transition: 1s ease all;
+    border: 2px solid lightseagreen;
+    border-radius: 10px  10px;
+    padding: 2px 0px 5px 13px;
+      }
+
+      
+.texta1:hover{
+    cursor: pointer;
+    transition: .5s ease all;
+    background-color:  rgba(32,178,170, 0.2);
+    border: 2px solid gray;
+    border-radius: 20px  20px;
+    /*transform: scale(1.2);*/
+}
+
+.stexta2{
+    
+    font-size: 40px;
+    
+
+
+}
+.texta2{
+    font-size: 22px;
+    margin-top: 50px;
+    color: white;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   */
+    letter-spacing: 2px;
+    transition: 1s ease all;
+    font-family: 'Josefin Sans', sans-serif;\\
+    font-weight: 500;
+
+
+
+}
+.texta2:hover{
+    /*background-color:  rgba(32,178,170, 0.1);*/
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.container3{
+    width: 100%;
+    height: 550px;
+}
+.image4{
+    margin-top: -560px;
+    margin-left: 800px ;
+    border-radius: 20px;
+    transition: .5s ease all;
+}
+.image4:hover{
+    transform: scale(1.1);
+}
+.box3{
+    width: 700px;
+    height: 500px;
+    /*background-color : yelow ;*/
+    /* float: ; */
+    margin-top: -50px;
+    
+}
+
+.textsla{
+    font-size: 40px;
+    font-family: 'Rampart One', cursive; 
+    margin-left: 250px;
+    margin-top: 120px;
+    margin-right: 300px;  
+    letter-spacing: 2px;
+    padding-right: 5px ;
+    padding-left: 8px ;
+    color: white;
+    transition: 1s ease all;
+    border: 2px solid lightseagreen;
+    border-radius: 10px  10px;
+
+}
+.textsla:hover{
+    cursor: pointer;
+    transition: .5s ease all;
+    background-color:  rgba(32,178,170, 0.2);
+    border: 2px solid gray;
+    border-radius: 20px 20px;
+    /*transform: scale(1.2);*/
+}
+.texts1{
+    font-size: 22px;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   */
+    padding-top:  40px;
+    padding-left: 60px;
+    color: white;
+    transition: 1s ease all;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+
+
+}
+.texts1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+.container4{
+    width: 100%;
+    height: 550px;
+    background-color: rgba(50, 49, 49, 0.7);
+
+}
+.box4{
+    width: 700px;
+    height: 500px;
+    background-color : yllow ;
+    float: right;
+    margin-right: 60px;
+    
+}
+.textcl{
+    font-size: 40px;
+    font-family: 'Rampart One', cursive;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 233px;
+    color: white;
+    transition: 1s ease all;
+    /*background-color: greenyellow;*/
+    border: 2px solid lightseagreen;
+    border-radius: 10px  10px;
+    padding-left: 8px;
+    padding-right: 5px;
+}
+.textcl:hover{
+    cursor: pointer;
+    transform: scale(1.);
+    transition: .5s ease all;
+    background-color:  rgba(32,178,170, 0.2);
+    border: 2px solid gray;
+    border-radius: 20px 20px;
+}
+.image5{
+    width: 320px;
+    height: 360px;
+    margin-left: -520px;
+    margin-top: -320px;
+    border-radius: 20px;
+    transition: .5s ease all;
+    }
+.image5:hover{
+    
+    transform: scale(1.1);
+}
+
+.textcs{
+    font-size: 22px;
+    margin-top:60px;
+    margin-left: 5px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    transition: 1s ease all;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+
+        
+}
+.textcs:hover{
+ cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+nav{
+    height: 60px;
+}
+
+label.logoname{
+    font-size: 22px ;
+    padding: 0 0 0 10px;
+}
+label.portfolio{
+    font-size: 22px;
+    padding-left: 15px;
+    padding-right: 0;
+    line-height: 60px ;
+
+}
+.togglebtn{
+    display: block;
+    margin-right: 13px;
+    margin-bottom: 7px;
+}
+/* .crossbtn{
+
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+    background-color: yellowgreen;
+    margin-top: 20px;
+    margin-right: px;
+    z-index: 1000;
+} */
+.nav-wrap ul {
+    width: 100%;
+    position: absolute;
+    height: 300px;
+    text-align: center;
+    margin-left: 0px;
+    background-color: rgba(46, 62, 80, 0.6);
+    transition: ease all;
+    display: none;
+
+
+}
+.nav-wrap ul li{
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
+.nav-wrap ul li a {
+    font-size: 20px;
+}
+ a:hover a.active{
+    background: none;
+    color: #0082e6;
+}
+ 
+.togglebtn:hover .nav-wrap ul:active {
+    display: block;
+}  
+nav{
+    background-color: rgba(56,56,56,1) 
+
+}
+.container1{
+    width: 100%;
+    height: 750px;
+    display: inline-block;
+}
+.box1{
+    width: 100%;
+    height:700px;
+    background-color : yello ;
+    /* float: ; */
+    overflow: hidden;
+    
+}
+.image1{
+    margin-top: -1120px;
+    margin-left: 64px ;
+    /* float:; */
+    width: 250px;
+    height: 200px;
+}
+
+.text1{
+    font-family: 'Rampart One', cursive;   
+     font-size: 35px;
+
+     letter-spacing: 1px;
+     overflow: auto;
+     margin-top: 200px;
+     margin-left: 70px;
+     padding-top: 100px;
+}
+.stext2{
+    color: #b8485a;
+
+}
+.stext1{
+    color: #b8485a;
+
+}
+
+.text2{
+    margin-top: px;
+    margin-left: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    font-size: 18px;
+
+
+}
+
+
+
+
+   /* ABOUT ME SECTION  */
+.container2{
+    width: 100%;
+    height: 700px;
+    background-color: #323131;
+}
+.box2{
+    width: 100%;
+    height: 700px;
+    background-color: ink;
+    margin-top: 1px;
+    margin-left: 0px ;
+    /* overflow: ; */
+}
+
+.image3{
+    width: 250px;
+    height: 260px;
+    /* float: ; */
+    margin-top: -50px;
+    margin-left: 66px;
+  
+}
+.texta1{
+    font-size: 30px;
+    margin-top: -400px;
+    margin-left: 45px;
+    display: block;
+    font-family: 'Rampart One', cursive;   
+    color: white;
+    padding-top: 420px;
+
+}
+.stexta2{
+    color: #686ee3;
+    font-size: 30px;
+    
+
+
+}
+.texta2{
+    font-size: 19px;
+    margin-top: 25px;
+    margin-left: 10px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+  letter-spacing: 2px;
+}
+
+
+
+
+
+/* Skills section */
+.container3{
+    width: 100%;
+    height: 700px;
+}
+.image4{
+    margin-top: -1100px;
+    margin-left: 20px ;
+    width: 300px;
+    height: 240px;
+}
+.box3{
+    width: 100%;
+    height: 700px;
+    background-color : yelow ;
+    /* float: ; */
+    margin-top: -px;
+    
+}
+
+.textsl{
+    font-size: 30px;
+    font-family: 'Rampart One', cursive; 
+    margin-left: 40%;
+    /* margin-top: ;   */
+    letter-spacing: 1px;
+    padding-top: 300px;
+
+
+
+}
+.texts1{
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    padding-top:  10px;
+    padding-left: 12px;
+
+
+}
+
+
+
+
+     /* CONTACT ME SECTION  */
+.container4{
+    width: 100%;
+    height: 700px;
+    background-color: #323131;
+
+}
+.box4{
+    width: 100%px;
+    height: 700px;
+    background-color : lue ;
+    float: right;
+    margin-right: 0px;
+    
+}
+.textcl{
+    font-size: 30px;
+    font-family: 'Rampart One', cursive;
+    margin-top: 2px;
+    margin-left: 440px;
+    color: white;
+    padding-top: 300px;
+
+}
+
+.image5{
+    width: 240px;
+    height: 250px;
+    margin-left: 415px;
+    margin-top: -1020px;
+}
+
+.textcs{
+    font-size: 19px;
+    margin-top:10px;
+    margin-left: 380px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+}
+
+/*@media screen and (max-width: 767px){
+.menu{
+    transition: 0.4s all ease;
+}
+
+.show{
+    transform: translateX(800px);
+}
+
+.hide{
+    transform: translateX(0);
+}
+}*/
+
+
+/*position: sticky;
+  t.nav-wrap {
+  op: 0;
+}
+*/
+
+.nav-wrap menu ul li a.active {
+  background-color: #222;
+  color: white;
+}
+
+
+
+
+
+ 
+ 
+
+ 
