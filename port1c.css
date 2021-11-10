@@ -25,20 +25,18 @@ label.logoname{
     color: white;
     font-size: 26px;
     font-weight: ; 
+    padding: 4px 10px;
     font-family: 'EB Garamond', serif;  
     letter-spacing: 2px;
     font-weight: bold; 
     cursor: pointer;
     border: 2px solid black;
     border-radius: 0px 20px;
-    margin-left: 25px;
-   
+    margin-left: 50px;
+    margin-top: 15px;
     transition: .5s ease all;
 
     
-}
-.logoname{
-    margin-top: 10px;
 }
 .logoname:hover{
 
@@ -46,9 +44,6 @@ label.logoname{
     border:  2px solid gray;
    
 
-}
-.logotext{
-    padding: 2px 7px 0px 0px;
 }
 
 
@@ -285,7 +280,7 @@ font-family: 'Rampart One', cursive;    font-size: 50px;
     height: 550px;
 }
 .image4{
-    margin-top: 200px;
+    margin-top: 156px;
     margin-left: 800px ;
     border-radius: 20px;
     transition: .5s ease all;
@@ -334,6 +329,7 @@ font-family: 'Rampart One', cursive;    font-size: 50px;
     transition: 1s ease all;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
+    letter-spacing: 1px;
 
 
 }
@@ -425,12 +421,12 @@ font-family: 'Rampart One', cursive;    font-size: 50px;
 
 label.logoname{
     font-size: 20px;
-    padding: 0 0 0 10px;
+    padding: 5px 5px 0 5px;
     border-radius: 5px 5px;
-    margin-left: 50px;
-    margin-top: 15px;
+    margin-left: 25px;
     
     align-items: center;
+    margin-top: 10px;
 }
 
 
@@ -483,10 +479,17 @@ nav{
     background-color: rgba(56,56,56,1) 
 
 }
+.backimg{
+    width: 100%;
+    height: 100vh;
+    z-index: -1000;
+    position: fixed;
+}
 .container1{
     width: 100%;
     height: 800px;
     display: inline-block;
+    position: relative ;
 }
 .box1{
     width: 100%;
@@ -547,6 +550,7 @@ nav{
     width: 100%;
     height: 750px;
     background-color: #323131;
+    background-color: rgba(50, 49, 49, 0.7);
 }
 .box2{
     width: 100%;
@@ -565,11 +569,14 @@ nav{
     margin-left: 66px;
   
 }
+.image3:hover{
+    transform: none;
+}
 .texta1{
     width: 300px;
     font-size: 30px;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin-top: 28px;
+    margin-left: 21px;
     display: block;
     font-family: 'Rampart One', cursive;   
     color: white;
@@ -628,7 +635,7 @@ nav{
     transform: none;
 }
 .textsla{
-    margin-top: 24px;
+    margin-top: 42px;
     margin-left: 109px;
     /*padding-right: 30px;*/
     font-size: 30px;
@@ -667,7 +674,7 @@ nav{
 .container4{
     width: 100%;
     height: 750px;
-    background-color: #323131;
+    background-color: rgba(50, 49, 49, 0.7);
 
 }
 .box4{
