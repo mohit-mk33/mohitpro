@@ -42,7 +42,7 @@ label.logoname{
 
     background-color: rgba(32,178,170, 0.2);
     border:  2px solid gray;
-   
+    border-radius: 20px 0px;
 
 }
 
